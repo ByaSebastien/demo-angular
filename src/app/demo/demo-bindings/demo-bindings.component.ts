@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class DemoBindingsComponent {
 
+  firstname: string = "Roger";
+  isActive: boolean = true;
+
+  saySapristi(){
+    alert("Sapristi!!!");
+  }
+
+  toggleIsActive(){
+    this.isActive = !this.isActive;
+  }
 }
