@@ -1,0 +1,12 @@
+ul li{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px
+}
+
+.childList{
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px 0px 10px auto;
+    padding: 10px;
+}

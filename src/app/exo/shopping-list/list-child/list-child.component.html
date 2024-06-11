@@ -1,0 +1,12 @@
+<div class="childList">
+    <ul>
+        @for (item of cart; let i = $index; track $index) {
+            <li>
+                <p>{{item.name}} : X {{item.quantity}}</p>
+                <button (click)="removeOneEvent.emit(item)">➖</button>
+                <button (click)="raiseAddOne(item)">➕</button>
+                <button (click)="raiseDelete(i)">❌</button>
+            </li>
+        }
+    </ul>
+</div>
