@@ -1,0 +1,21 @@
+<div class="chapter">
+    <h2>Demo input / output</h2>
+    <div class="content">
+        <label for="color">Couleur : </label>
+        <input type="text" [(ngModel)]="color">
+        @if(childRest){
+            @switch (childRest) {
+                @case ('oui') {
+                    <p>Apparemment ma couleur plait</p>
+                }
+                @case ('non') {
+                    <p>Il semble que j'ai mauvais gout</p>
+                }
+            }
+        }
+        <hr>
+        <app-sous-composant [parentColor]="color" (myEvent)="reactToChild($event)">
+            <h3>Child component</h3>
+        </app-sous-composant>
+    </div>
+</div>
