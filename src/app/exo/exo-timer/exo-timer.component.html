@@ -1,1 +1,9 @@
-<p>exo-timer works!</p>
+<div class="chapter">
+  <h2>Exo Timer</h2>
+  <div class="content">
+    <h3>{{ seconds | convertTime }}</h3>
+    <button (click)="start()" [disabled]="isActive">Start</button>
+    <button (click)="stop()" [disabled]="!isActive">Stop</button>
+    <button (click)="reset()" [disabled]="seconds == 0">Reset</button>
+  </div>
+</div>
