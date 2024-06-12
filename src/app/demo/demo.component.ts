@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormateurService } from '../services/formateur.service';
 
 @Component({
   selector: 'app-demo',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class DemoComponent {
 
+  constructor(private readonly _formateurService : FormateurService){}
 }

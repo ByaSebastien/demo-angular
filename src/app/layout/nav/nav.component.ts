@@ -16,6 +16,7 @@ export class NavComponent {
       {title: "Pipes", url: '/demo/demo02'},
       {title: "Directives", url: '/demo/demo03'},
       {title: "Input / Output", url: '/demo/demo04'},
+      {title: "Composant reutilisable", url: '/demo/demo05'},
     ], isVisible: false},
     { title: 'Exo', children: [
       {title: "Timer", url: '/exo/exo01'},

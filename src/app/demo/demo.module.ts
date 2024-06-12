@@ -10,6 +10,8 @@ import { DemoPipeComponent } from './demo-pipe/demo-pipe.component';
 import { DemoDirectivesComponent } from './demo-directives/demo-directives.component';
 import { DemoInputOutputComponent } from './demo-input-output/demo-input-output.component';
 import { SousComposantComponent } from './demo-input-output/sous-composant/sous-composant.component';
+import { ComposantReutilisableComponent } from './composant-reutilisable/composant-reutilisable.component';
+import { CarteFormateurComponent } from './composant-reutilisable/carte-formateur/carte-formateur.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { SousComposantComponent } from './demo-input-output/sous-composant/sous-
     DemoPipeComponent,
     DemoDirectivesComponent,
     DemoInputOutputComponent,
-    SousComposantComponent
+    SousComposantComponent,
+    ComposantReutilisableComponent,
+    CarteFormateurComponent
   ],
   imports: [
     CommonModule,
