@@ -1,0 +1,10 @@
+<ul>
+    @for (item of cart; track $index) {
+        <li>
+            <p>{{item.name}} : X{{item.quantity}}</p>
+            <button (click)="removeOne($index)">➖</button>
+            <button (click)="increaseOne($index)">➕</button>
+            <button (click)="delete($index)">❌</button>
+        </li>
+    }
+</ul>

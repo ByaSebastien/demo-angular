@@ -33,7 +33,7 @@ export class FormateurService {
   constructor() {
     console.log('Service created');
     
-   }
+  }
 
   get formateurs(): Formateur[]{
     return this._formateurs;

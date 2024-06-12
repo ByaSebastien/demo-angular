@@ -8,5 +8,6 @@ import { FormateurService } from '../services/formateur.service';
 })
 export class DemoComponent {
 
-  constructor(private readonly _formateurService : FormateurService){}
+  constructor(){
+  }
 }

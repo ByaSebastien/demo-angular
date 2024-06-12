@@ -1,0 +1,9 @@
+<div class="chapter">
+    <h2>Shopping list</h2>
+    <label for="productName">Nom du produit : </label>
+    <input type="text" id="productName" [(ngModel)]="productName">
+    <label for="productQuantity">Quantité : </label>
+    <input type="number" id="productQuantity" [(ngModel)]="productQuantity">
+    <button (click)="add()">Ajouter</button>
+    <app-cart></app-cart>
+</div>
