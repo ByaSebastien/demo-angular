@@ -17,6 +17,7 @@ export class NavComponent {
       {title: "Directives", url: '/demo/demo03'},
       {title: "Input / Output", url: '/demo/demo04'},
       {title: "Composant reutilisable", url: '/demo/demo05'},
+      {title: "Demo formulaire", url: '/demo/demo06'},
     ], isVisible: false},
     { title: 'Exo', children: [
       {title: "Timer", url: '/exo/exo01'},

@@ -1,0 +1,26 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <div>
+        <label for="name">Nom : </label>
+        <input type="text" formControlName="name" id="name">
+        @if(registerForm.get('name')?.touched && registerForm.get('name')?.hasError('required')){
+                <span class="error">Nom requis</span>
+            }
+    </div>
+    <div>
+        <label for="breed">Espèce : </label>
+        <input type="text" formControlName="breed" id="breed">
+    </div>
+    <div>
+        <label for="birthdate">DDN : </label>
+        <input type="date" formControlName="birthdate" id="birthdate">
+    </div>
+    <div>
+        <label for="ownerName">Nom du proprio : </label>
+        <input type="text" formControlName="ownerName" id="ownerName">
+    </div>
+    <div>
+        <label for="password">Nom : </label>
+        <input type="password" formControlName="password" id="password">
+    </div>
+    <button type="submit">Enregistrer</button>
+</form>

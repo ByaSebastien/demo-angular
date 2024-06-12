@@ -12,6 +12,7 @@ import { DemoInputOutputComponent } from './demo-input-output/demo-input-output.
 import { SousComposantComponent } from './demo-input-output/sous-composant/sous-composant.component';
 import { ComposantReutilisableComponent } from './composant-reutilisable/composant-reutilisable.component';
 import { CarteFormateurComponent } from './composant-reutilisable/carte-formateur/carte-formateur.component';
+import { DemoFormulaireComponent } from './demo-formulaire/demo-formulaire.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { CarteFormateurComponent } from './composant-reutilisable/carte-formateu
     DemoInputOutputComponent,
     SousComposantComponent,
     ComposantReutilisableComponent,
-    CarteFormateurComponent
+    CarteFormateurComponent,
+    DemoFormulaireComponent
   ],
   imports: [
     CommonModule,

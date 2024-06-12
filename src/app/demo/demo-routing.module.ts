@@ -6,6 +6,7 @@ import { DemoPipeComponent } from './demo-pipe/demo-pipe.component';
 import { DemoDirectivesComponent } from './demo-directives/demo-directives.component';
 import { DemoInputOutputComponent } from './demo-input-output/demo-input-output.component';
 import { ComposantReutilisableComponent } from './composant-reutilisable/composant-reutilisable.component';
+import { DemoFormulaireComponent } from './demo-formulaire/demo-formulaire.component';
 
 const routes: Routes = [
   { path: '', component: DemoComponent, children: [
@@ -14,6 +15,7 @@ const routes: Routes = [
     { path: 'demo03',component: DemoDirectivesComponent},
     { path: 'demo04', component: DemoInputOutputComponent},
     { path: 'demo05', component: ComposantReutilisableComponent},
+    { path: 'demo06', component: DemoFormulaireComponent},
   ]}
 ];
 
