@@ -1,0 +1,17 @@
+.chapter{
+    text-align: center;
+
+    img{
+        margin: 10px;
+        height: 400px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-around;
+
+        button{
+            padding: 5px;
+            margin: 10px;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<div class="chapter">
+    <h2>{{pokemon?.id}} : {{pokemon?.name}}</h2>
+    <img [src]="pokemon?.imageUrl">
+    <p>Taille : {{pokemon?.height}}</p>
+    <p>Poids : {{pokemon?.weight}}</p>
+    <div class="buttons">
+        <button (click)="previousPokemon()">⬅️</button>
+        <button (click)="nextPokemon()">➡️</button>
+    </div>
+</div>
