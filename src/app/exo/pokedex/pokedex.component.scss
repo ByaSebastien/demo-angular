@@ -1,0 +1,32 @@
+:host{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pokedex{
+    background-color: red;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+    .left{
+        width: 70%;
+    }
+
+    .right{
+        width: 20%;
+
+        ul{
+
+            li{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
